@@ -1,0 +1,132 @@
+@charset "ISO-8859-1";
+body{
+  margin: 0;
+  padding:0;
+  font-family:serif;
+  background:url(1122log.jpg) no-repeat center center fixed;
+  background-size:cover;
+}
+.box{
+  width: 550px;
+  margin-top:2%;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  border-radius:20px;
+  background:transparent;
+  box-shadow:10px 10px 40px black;
+}
+h1{
+  color: white;
+  font-family:serif;
+  font-weight: 500;
+}
+.box input[type = "text"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 12px 7px;
+  width: 300px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:hover,.box input[type = "password"]:hover{
+  width: 350px;
+  border-color: white;
+}
+.box input[type = "submit"]{
+  border:0;
+  background:transparent;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-weight:bold;
+  border: 2px solid black;
+  padding: 8px 35px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.35s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background:white;
+  box-shadow:2px 2px 18px white;
+  color: #3498db;
+}
+.design{
+	color:white;
+}
+.custom{
+	box-sizing:border-box;
+	background:transparent;
+	color:black;
+	border-radius:10px;
+	border:2px solid black;                  
+	padding:5px;
+}
+.custom:hover{
+	cursor: pointer;
+}
+::placeholder{
+	color:white;
+}
+.update{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:600px;
+	height:1000px;
+	transform: translate(-60%,-50%);
+	margin-top:10%;
+	text-align: center;
+  	border-radius:20px;
+ 	background:transparent;
+  	box-shadow:10px 10px 40px black;
+}
+.update input[type = "text"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 12px 7px;
+  width: 300px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.update input[type = "text"]:hover,.update input[type = "password"]:hover{
+  width: 350px;
+  border-color: white;
+}
+.update input[type = "submit"]{
+  border:0;
+  background:transparent;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-weight:bold;
+  border: 2px solid black;
+  padding: 8px 35px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.35s;
+  cursor: pointer;
+}
+.update input[type = "submit"]:hover{
+  background:white;
+  box-shadow:2px 2px 18px white;
+  color: #3498db;
+}

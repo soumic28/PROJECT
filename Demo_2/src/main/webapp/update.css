@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+body{
+	margin:10;
+	padding:10;
+	background:url(1122log.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+div{
+	color:#00ccff;
+	text-align:center;
+}
+.s{
+	display:inline;
+	position:absolute;
+	left:37%;
+}
+.s input[type="text"]{
+	width:280px;
+	padding:12px;
+	border-radius:15px;
+	background:transparent;
+	border:2px solid black;
+	color:white;
+}
+button{
+	padding:12px;
+	width:100px;
+	border-radius:15px;
+	border:2px solid black;
+	margin-left:4px;
+	background:transparent;
+	font-weight:bold;
+	color:white;
+	cursor:pointer;
+}
+::placeholder{
+	color:#cccccc;
+}
+button:hover{
+	color:black;
+	background:white;
+	box-shadow:2px 2px 18px white;
+	border-color:black;
+}
+.s input[type="text"]:hover{
+	border-color:white;
+}
+.box{
+	margin-top:5%;
+}
+.table{
+	color:white;
+}
